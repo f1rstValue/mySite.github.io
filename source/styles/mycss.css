@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+body {
+    font-family: Inconsolata, serif;
+    background: linear-gradient(216deg, #F7FFDB 26%, #D4F8FF 83%); 
+}
+.nav-link {
+
+    color:azure
+}
+.navbar-nav .nav-link.active {
+    color:aquamarine
+}
+.navbar-brand img {
+    width: 35px;
+}
+.navbar-toggler {
+    background-color: antiquewhite;
+}
+
+.card {
+    background: linear-gradient(216deg, #7bf8b3 26%, #fdff90 83%); 
+    text-align: center;
+    font-weight: bold;
+    /* text-shadow: 3px 3px 3px #5A4B34; */
+    box-shadow: 5px 5px 5px 5px #636730;
+}
+
+.sidebar {
+    background-color: rgb(44, 44, 44);
+}
+.card a {
+    text-decoration: none;
+    color:black;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px #5A4B34;
+}
+h2 {
+    text-align: center;
+}
+
+.botnavbar {
+    margin: 1em;
+    background: linear-gradient(216deg, #494949 26%, #363636 83%); 
+
+}
+
+footer {
+    text-align: center;
+    color: rgb(140, 190, 255);
+}
+
+.chat {
+    margin: auto auto;
+}
+.chat {
+    animation: myAnim 2s linear 0s infinite normal forwards;
+}
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateY(0) rotate(0);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateY(-5px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateY(5px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateY(-5px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateY(5px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateY(-5px) rotate(-1.2deg);
+	}
+}
