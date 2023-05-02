@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
 body {
-    font-family: Inconsolata, serif;
+    font-family: 'Roboto Slab', serif;
     background: linear-gradient(216deg, #F7FFDB 26%, #D4F8FF 83%); 
 }
 .nav-link {
